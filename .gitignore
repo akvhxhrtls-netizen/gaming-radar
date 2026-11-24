@@ -6,3 +6,27 @@ __pycache__/
 data/
 reports/
 *.sqlite*
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# API credentials
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Generated reports and analysis data
+reports/
+ai_analysis_request*.json
+ai_analysis_response*.json
+data/
+logs/
